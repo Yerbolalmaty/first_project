@@ -2,9 +2,14 @@
 
 namespace App\Providers;
 
+
+use App\Http\Controllers\AlmatyFuture2020;
+use App\Http\Controllers\Controller;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
 

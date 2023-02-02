@@ -1,9 +1,7 @@
 <?php
 
+namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MyPlaceController;
-
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,7 +13,8 @@ use App\Http\Controllers\MyPlaceController;
 |
 */
 
-use App\Http\Controllers\UserController;
 
-Route::get('/user', [UserController::class, 'index']);
+
+
 Route::get('/my_page', [MyPlaceController::class, 'index']);
+
