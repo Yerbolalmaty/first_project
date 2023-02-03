@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 
-use App\Http\Controllers\AlmatyFuture2020;
+
 use App\Http\Controllers\Controller;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;

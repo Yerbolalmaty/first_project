@@ -17,4 +17,3 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/my_page', [MyPlaceController::class, 'index']);
-
